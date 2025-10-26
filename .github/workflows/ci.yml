@@ -25,4 +25,4 @@ jobs:
 
       # 新增单元测试步骤
       - name: Run unit tests with pytest
-        run: pytest tests/ -v
+        run: python -m pytest test/ -v
