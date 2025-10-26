@@ -1,3 +1,5 @@
 def add(a, b):
-    """返回两个数的和"""
-    return a * b
+    return a + b
+
+def subtract(a, b):  # 新增减法函数
+    return a - b
